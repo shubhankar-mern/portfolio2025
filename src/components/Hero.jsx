@@ -14,8 +14,7 @@ const Hero = () => {
         </h3>
         <p className="text-textSecondary text-lg max-w-2xl mb-8">
           I'm a software development engineer specializing in building exceptional 
-          digital experiences. Currently, I'm focused on building AI-powered 
-          applications at Troopr Labs.
+          digital experiences.
         </p>
        
       </div>

@@ -95,32 +95,19 @@ const About = () => {
         <div className="grid md:grid-cols-5 gap-12 items-start">
           {/* Text Content */}
           <div className="md:col-span-3" style={textContainerStyle}>
-            <p 
-              className="mb-4 hover:translate-x-1 transition-transform duration-200"
-              style={{ textIndent: '20px' }}
-            >
-              Hello! I'm Shubhankar, a Software Development Engineer passionate about building exceptional 
-              digital experiences. Currently at Troopr Labs, I specialize in developing real-time AI chat 
-              systems and optimizing application performance for scalability.
-            </p>
-            
-            <p 
-              className="mb-4 hover:translate-x-1 transition-transform duration-200"
-              style={{ textIndent: '20px' }}
-            >
-              My tech journey began at LTIMindtree where I honed my skills in cloud infrastructure and 
-              Python development. This experience led me to Zeeve, where I engineered high-performance 
-              TypeScript/Node.js microservices and dove deep into blockchain infrastructure.
-            </p>
-            
-            <p 
-              className="mb-4 hover:translate-x-1 transition-transform duration-200"
-              style={{ textIndent: '20px' }}
-            >
-              At Troopr Labs, I've been fortunate to work with cutting-edge AI technologies, building 
-              systems that handle 10K+ concurrent users with 99.9% uptime. I'm deeply passionate about 
-              system architecture and creating efficient, scalable solutions.
-            </p>
+          <p
+            className="mb-4 hover:translate-x-1 transition-transform duration-200"
+            style={{ textIndent: '20px' }}
+  >
+          Hello! I'm Shubhankar, a Software Development Engineer with a passion for building exceptional digital experiences. I specialize in developing real-time AI chat systems and optimizing application performance for scalability, handling high-concurrency environments with 99.9% uptime.
+</p>
+
+<p
+    className="mb-4 hover:translate-x-1 transition-transform duration-200"
+style={{ textIndent: '20px' }}
+>
+My professional journey includes key roles at Playhouse Media, Troopr Labs, Zeeve, and LTIMindtree. This experience has given me a strong foundation in cloud infrastructure, microservices architecture, and cutting-edge technologies like blockchain and AI.
+</p>  
 
             <div className="mt-8">
               <a 

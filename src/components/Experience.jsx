@@ -8,6 +8,40 @@ const Experience = () => {
 
   const jobs = [
     {
+      "company": "Playhouse Media",
+      "title": "Senior Software Development Engineer",
+      "date": "Apr 2025 - Jul 2025",
+      "location": "Remote, United States",
+      "color": "#add8e6",
+      "icon": "▶️",
+      "tech": [
+        "TypeScript",
+        "Node.js",
+        "React.js",
+        "Next.js",
+        "AWS",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "BullMQ"
+      ],
+      "responsibilities": [
+        {
+          "text": "Architected real-time AI chat systems using WebSocket and AWS, resulting in 99.9% uptime.",
+          "emoji": "🤖"
+        },
+        {
+          "text": "Led the implementation of Role-Based Access Control (RBAC) and Single Sign-On (SSO) authentication.",
+          "emoji": "🔒"
+        },
+        {
+          "text": "Developed scalable data pipelines with BullMQ and Redis, optimizing API performance and reducing latency by 40%.",
+          "emoji": "🚀"
+        }
+      ]
+    }
+    ,
+    {
       company: "Troopr Labs",
       title: "Software Development Engineer",
       date: "Nov 2023 - Dec 2024",

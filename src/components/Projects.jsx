@@ -86,7 +86,9 @@ const Projects = () => {
           Featured Projects
           <div className="w-1/4 h-[1px] bg-[#233554] ml-4 hidden md:block" />
         </h2>
-
+        <h5 className="font-bold text-lg mb-4">
+  Personal SaaS projects with live deployment and integrated payment systems. 🚀💰💰
+</h5>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '50px' }}>
           {projects.map((project, idx) => (
             <div

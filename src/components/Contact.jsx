@@ -8,7 +8,7 @@ const Contact = () => {
 
   const contactInfo = {
     email: "shubhankars361@gmail.com",
-    phone: "+91-7003482971",
+    phone: "+91-700XXXXXXXX",
     location: "Bangalore, India",
     linkedin: "https://www.linkedin.com/in/shubhankar27/",
     github: "https://github.com/shubhankar-mern"
