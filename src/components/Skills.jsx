@@ -212,7 +212,7 @@ const Skills = () => {
           padding: '25px',
           borderRadius: '12px',
           background: 'rgba(100, 255, 218, 0.05)',
-          color: '#8892b0',
+         
           lineHeight: '1.6',
         }}>
           <p style={{ marginBottom: '15px' }}>

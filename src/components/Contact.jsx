@@ -99,7 +99,6 @@ const Contact = () => {
           </h3>
 
           <p style={{
-            color: '#8892b0',
             maxWidth: '600px',
             margin: '0 auto',
             fontSize: '18px',
@@ -130,7 +129,7 @@ const Contact = () => {
               }}
               className="hover:transform hover:scale-105 hover:border-[#64ffda]/30"
             >
-              <div style={{ fontSize: '40px', marginBottom: '15px' }}>{card.icon}</div>
+              <div className='animate-bounce' style={{ fontSize: '40px', marginBottom: '15px'}}>{card.icon}</div>
               <h4 style={{ color: '#64ffda', fontSize: '18px', marginBottom: '10px' }}>{card.title}</h4>
               <div style={{ 
                 display: 'flex', 
@@ -198,7 +197,7 @@ const Contact = () => {
                 }}
                 className="hover:bg-[#64ffda]/10 hover:text-[#64ffda] hover:-translate-y-1"
               >
-                <span style={{ fontSize: '30px' }}>{social.icon}</span>
+                <span className='animate-spin' style={{ fontSize: '30px' }}>{social.icon}</span>
                 <span>{social.label}</span>
               </a>
             ))}

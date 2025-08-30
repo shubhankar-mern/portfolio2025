@@ -29,7 +29,6 @@ const About = () => {
   }
 
   const textContainerStyle = {
-    color: '#8892b0',
     fontSize: '16px',
     lineHeight: '1.7',
   }

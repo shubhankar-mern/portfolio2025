@@ -169,7 +169,7 @@ const Certifications = () => {
             padding: '20px',
             borderRadius: '8px',
             background: 'rgba(100, 255, 218, 0.05)',
-            color: '#8892b0',
+            
             lineHeight: '1.6',
           }}
           className="hover:bg-[#64ffda]/10 transition-colors duration-300"
