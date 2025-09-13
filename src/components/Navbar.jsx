@@ -108,7 +108,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/14eaj846Z8IP9R-bkFY4CTDj4XLOx3bwN/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1p2xKbi9sDsKt_iVifv-DpT_zfMvUIroF/view?usp=drive_link"
               style={resumeButtonStyle}
               className="hover:bg-[#64ffda]/10 hover:translate-y-[-2px]"
               target="_blank"
