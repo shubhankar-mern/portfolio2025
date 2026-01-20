@@ -10,7 +10,6 @@ import Projects from './components/Projects'
 import './App.css'
 
 function App() {
-  // Add smooth scroll behavior
   useEffect(() => {
     const handleScroll = () => {
       const navbar = document.querySelector('.navbar')
@@ -27,22 +26,12 @@ function App() {
 
   return (
     <div className="app" style={{width: '100%', height: '100%'}}>
+      <div className="grid-overlay"></div>
       <div className="background">
         <div className="blur-circle top"></div>
         <div className="blur-circle bottom"></div>
       </div>
-      <div className="particles">
-    {[...Array(20)].map((_, i) => (
-      <div
-        key={i}
-        className="particle"
-        style={{
-          left: `${Math.random() * 100}%`,
-          animationDelay: `${Math.random() * 20}s`,
-        }}
-      />
-    ))}
-  </div>
+      
       <Navbar />
       
       <main className="main" style={{width: '100%', height: '100%'}} >

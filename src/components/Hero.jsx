@@ -1,6 +1,5 @@
 import '../../src/App.css'
 import '../../src/index.css'
-
 const Hero = () => {
   return (
     <div className="min-h-screen flex items-center" id="home">
@@ -16,8 +15,13 @@ const Hero = () => {
           I'm a software development engineer specializing in building exceptional 
           digital experiences.
         </p>
+        
        
       </div>
+    
+
+     
+    
     </div>
   )
 }

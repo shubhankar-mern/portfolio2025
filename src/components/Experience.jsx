@@ -159,6 +159,7 @@ const Experience = () => {
       transform: 'translateY(20px)',
       transition: 'all 0.5s ease-out',
     }}>
+      
       <div style={{ padding: '0 25px' }}>
         <h2 style={{
           fontSize: '32px',

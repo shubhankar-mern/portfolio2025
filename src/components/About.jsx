@@ -84,6 +84,7 @@ const About = () => {
         transition: 'all 0.5s ease-out',
       }}
     >
+      
       <div style={{ padding: '0 25px' }}>
         <h2 style={headingStyle}>
           <span style={numberStyle}>01.</span>
